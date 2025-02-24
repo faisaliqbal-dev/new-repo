@@ -44,5 +44,11 @@ date
       }
     }
 
+    stage('prod') {
+      steps {
+        echo 'deployed on production'
+      }
+    }
+
   }
 }
